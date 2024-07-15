@@ -99,10 +99,10 @@ Connect to the VM via Parsec and GAME ON!
 
 -------------------------------------------------------
 
-Get-VMGpuPartitionAdapter -VMName "VM Name"
-
+- Get-VMGpuPartitionAdapter -VMName "VM Name"
 And to remove them:
+- Get-VMGpuPartitionAdapter -VMName "VM Name" | Remove-VMGpuPartitionAdapter
 
-Get-VMGpuPartitionAdapter -VMName "VM Name" | Remove-VMGpuPartitionAdapter
+https://www.reddit.com/r/HyperV/comments/tqiqv7/removing_a_gpu_partition/
 
 --------------------------------------------------------------
