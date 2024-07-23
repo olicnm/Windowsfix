@@ -24,4 +24,5 @@ Man gehe wie folgt vor:
 Viel Erfolg Euch. Keine Gewähr für die Richtigkeit der Angaben.
 
 https://administrator.de/forum/voip-nach-isdn-speedport-isdn-adapter-bzw-wandler-sendet-stets-falsche-erste-msn-des-anschlusses-firmware-581610.html#comment-1468203
+
 https://www.ip-phone-forum.de/threads/isdn-endger%C3%A4te-an-7590-ax-ohne-s0.314936/
