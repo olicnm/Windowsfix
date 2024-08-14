@@ -1,5 +1,7 @@
 VSS Fehler Event ID 12293
 
+Link: https://www.youtube.com/watch?v=Cn-TN8ONAb8
+
 Hier den Teil in den Texteditor kopieren und als upperfilter.reg abspeichern. Doppelklicken und die Datei wird in die Registry geladen, PC neu starten.
 
 <code>Windows Registry Editor Version 5.00
