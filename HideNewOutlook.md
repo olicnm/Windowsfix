@@ -6,6 +6,7 @@ Registry Editor öffnen und zu dem Pfad gehen:
 - Name: HideNewOutlookToggle
 - Wert: 1
 
+Download der Reg Datei: https://github.com/olicnm/Windowsfix/blob/main/HideNewOutlookToggle.zip
 
 
 
