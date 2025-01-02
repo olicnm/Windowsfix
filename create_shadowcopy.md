@@ -1,5 +1,5 @@
 Ab Windows 10 muss man folgenden Befehl verwenden
-wmic shadowcopy call create Volume="C:\"
+<code> wmic shadowcopy call create Volume="C:\" </code>
 statt
 vssadmin create shadow /for=C:
 In Windows 10 kann man keine Scahttenkopie mehr damit erstellen. Der Befehl create fehlt
