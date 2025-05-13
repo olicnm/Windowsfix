@@ -1,0 +1,5 @@
+- Powershell starten
+- Befehl: netsh wlan show profile ausführen
+- Es werden die gespeichertern WLANs angezeigt
+- Befehl: netsh wlan show profile „DEIN_WLAN_NAME“ key=clear ausführen.
+- Einstellungen und Passwort für das WLAN werden angezeigt
