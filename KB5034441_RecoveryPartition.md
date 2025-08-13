@@ -99,10 +99,32 @@ Datei kopieren:
 Dem System mitteilen, wo sich das Image der Wiederherstellungsumgebung befindet:
 
     reagentc /setreimage /path C:\Windows\System32\Recovery
+    reagentc /setreimage /path 
 
 Wiederherstellungsumgebung aktivieren:
 
     reagentc /enable
+
+---
+How to Fix: Windows 11 weißt der Recovery Partition wiederholt einen Laufwerkbsuchstaben zu
+- in der Kommandozeile die Wiederherstellungsinformationen deaktiveren
+
+        reagentc /disable
+      
+- Die Recovery Partition in Diskpart auswählen
+- die Partitions ID zu einer Basispartition umwandeln und GPT Atribute entfernen
+
+        set id="ebd0a0a2-b9e5-4433-87c0-68b6b72699c7"
+        gpt attributes=0x0000000000000000
+
+- Laufwerksbuchstaben entfernen
+
+      remove letter=X
+- die Partitions ID wieder zur Wiederhrestellungspartition umwandeln und GPT Atribute hinzufügen
+
+        set id="de94bba4-06d1-4d40-a16a-bfd50179d6ac"
+        attributes=0x8000000000000001
+
 
 
 Link (https://www.der-windows-papst.de/2024/01/10/windows-wiederherstellungspartition-loeschen-vergroessern-und-wiederherstellen/)
