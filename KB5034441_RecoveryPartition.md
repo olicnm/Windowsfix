@@ -68,8 +68,9 @@ für MBR Partitionen:
 für alle, Partition formatieren:
 
     format quick fs=ntfs label=”WinRE”
+    assign letter=r
 
-Anschließend noch mal
+Anschließend noch mal (für MBR)
 
     SET ID=27 override
 
@@ -99,7 +100,7 @@ Datei kopieren:
 Dem System mitteilen, wo sich das Image der Wiederherstellungsumgebung befindet:
 
     reagentc /setreimage /path C:\Windows\System32\Recovery
-    reagentc /setreimage /path 
+    reagentc /setreimage /path R:\Recovery\WindowsRE (wenn das Laufwerk zuvor in Diskpart einen Laufwerksbuchstaben bekommen hat)
 
 Wiederherstellungsumgebung aktivieren:
 
@@ -123,7 +124,10 @@ How to Fix: Windows 11 weißt der Recovery Partition wiederholt einen Laufwerkbs
 - die Partitions ID wieder zur Wiederhrestellungspartition umwandeln und GPT Atribute hinzufügen
 
         set id="de94bba4-06d1-4d40-a16a-bfd50179d6ac"
-        attributes=0x8000000000000001
+        gpt attributes=0x8000000000000001
+- Wiederherstellungsumgebung aktivieren:
+
+      reagentc /enable
 
 
 
