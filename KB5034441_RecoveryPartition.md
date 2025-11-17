@@ -105,6 +105,40 @@ Dem System mitteilen, wo sich das Image der Wiederherstellungsumgebung befindet:
 Wiederherstellungsumgebung aktivieren:
 
     reagentc /enable
+---
+Copy install.wim to C:\Images\
+
+Mount install.wim file with the required edition say 6 for professional to C:\Mount\ folder
+
+commands
+
+    Dism /Mount-Image /ImageFile:"C:\Images\install.wim" /index:6 /MountDir:"C:\mount" /Optimize /Checkintegrity
+
+    attrib -h -r -s C:\Mount\Windows\System32\Recovery\*.* /s /d
+
+    copy winre.wim file to desktop from this location C:\Mount\Windows\System32\Recovery\
+
+    Dism.exe /UnMount-Image /MountDir:C:\mount /Commit
+    
+    Reagentc.exe /Disable /target C:\windows
+
+    Md R:\Recovery\WindowsRE
+
+    attrib -h -r -s R:\*.* /s /d
+
+    attrib -h -r -s R:\Recovery\WindowsRE\*.* /s /d
+
+    Copy winre.wim file to R:\Recovery\WindowsRE\
+
+    Reagentc.exe /SetReImage /path R:\Recovery\WindowsRE /Target C:\Windows
+
+    Reagentc.exe /enable
+
+    Reagentc.exe /enable /target C:\windows
+
+    Reagentc.exe /info /target C:\windows
+
+
 
 ---
 How to Fix: Windows 11 weißt der Recovery Partition wiederholt einen Laufwerkbsuchstaben zu
