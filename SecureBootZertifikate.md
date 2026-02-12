@@ -55,3 +55,4 @@ neue Zertifikate 2023 (CAs)
 - Microsoft UEFI CA 2023
 - Microsoft Option ROM UEFI CA 2023
  
+https://www.dell.com/support/kbdoc/de-de/000385747/anleitung-zum-%C3%BCberpr%C3%BCfen-von-secure-boot-zertifikaten#:~:text=Betroffene%20Betriebssysteme:&text=Die%20Secure%20Boot%2DZertifikate%20k%C3%B6nnen,ausf%C3%BChren%2C%20um%20Zugriffsprobleme%20zu%20vermeiden.&text=Hinweis:%20Die%20Active%20DB%20ist,um%20den%20Computer%20zu%20starten.
