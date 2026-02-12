@@ -18,3 +18,29 @@ Dieses Beispiel zeigt, dass das Windows UEFI CA 2023-Zertifikat (CA) nicht in de
     ([System.Text.Encoding]::ASCII.GetString((Get-SecureBootUEFI dbdefault).bytes) -match 'Windows UEFI CA 2023')
 
 Dieses Beispiel zeigt, dass das Windows UEFI CA 2023-Zertifikat (CA) in der Standarddatenbank vorhanden ist:
+
+
+Methode 2 
+Installieren des PowerShell-Moduls
+
+    Install-Module -Name UEFIv2
+    
+Geben Sie Y (für "Ja") auf Fragen zur Installation des NuGet-Anbieters und zur Installation von PSGallery
+
+    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+    Import-Module -Name UEFIv2
+
+Überprüfen der aktiven DB:
+
+    (Get-UEFISecureBootCerts db).signature 
+
+Überprüfen Sie die Standarddatenbank:
+
+    (Get-UEFISecureBootCerts dbdefault).signature 
+
+Secure Boot-Zertifikate:
+2011 Zertifikate (CAs) 	                     Zertifikate 2023 (CAs)
+Microsoft Corporation KEK CA 2011 	         Microsoft Corporation KEK 2K CA 2023
+Microsoft Windows Produktion PCA 2011 	      Windows UEFI CA 2023
+Microsoft Corporation UEFI CA 2011 	         Microsoft UEFI CA 2023
+                                             Microsoft Option ROM UEFI CA 2023
