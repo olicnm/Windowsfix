@@ -4,3 +4,4 @@ CMD als Admin starten und zum Pfad der PsExec gehen und über PsExec die Kommand
 <code>C:\Software\PSTolls\psexec.exe -sid c:\windows\System32\cmd.exe</code>
 in der neuen Konsole <code>rd /s /q c:\sysmon</code> eingeben
 
+Link: https://www.winhelponline.com/blog/run-program-as-system-localsystem-account-windows/#psexec
