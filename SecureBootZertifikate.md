@@ -38,9 +38,16 @@ Geben Sie Y (für "Ja") auf Fragen zur Installation des NuGet-Anbieters und zur 
 
     (Get-UEFISecureBootCerts dbdefault).signature 
 
-Secure Boot-Zertifikate:
-2011 Zertifikate (CAs) 	                     Zertifikate 2023 (CAs)
-Microsoft Corporation KEK CA 2011 	         Microsoft Corporation KEK 2K CA 2023
-Microsoft Windows Produktion PCA 2011 	      Windows UEFI CA 2023
-Microsoft Corporation UEFI CA 2011 	         Microsoft UEFI CA 2023
-                                             Microsoft Option ROM UEFI CA 2023
+alte Secure Boot-Zertifikate:
+- 2011 Zertifikate (CAs) 	                    
+- Microsoft Corporation KEK CA 2011 	         
+- Microsoft Windows Produktion PCA 2011 	     
+- Microsoft Corporation UEFI CA 2011 	         
+                                             
+
+neue Zertifikate 2023 (CAs)
+- Microsoft Corporation KEK 2K CA 2023
+- Windows UEFI CA 2023
+- Microsoft UEFI CA 2023
+- Microsoft Option ROM UEFI CA 2023
+ 
