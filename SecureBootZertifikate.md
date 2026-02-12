@@ -39,7 +39,8 @@ Geben Sie Y (für "Ja") auf Fragen zur Installation des NuGet-Anbieters und zur 
     (Get-UEFISecureBootCerts dbdefault).signature 
 
 alte Secure Boot-Zertifikate:
-- 2011 Zertifikate (CAs) 	                    
+
+2011 Zertifikate (CAs) 	                    
 - Microsoft Corporation KEK CA 2011 	         
 - Microsoft Windows Produktion PCA 2011 	     
 - Microsoft Corporation UEFI CA 2011 	         
