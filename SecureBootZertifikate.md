@@ -19,8 +19,9 @@ Dieses Beispiel zeigt, dass das Windows UEFI CA 2023-Zertifikat (CA) nicht in de
 
 Dieses Beispiel zeigt, dass das Windows UEFI CA 2023-Zertifikat (CA) in der Standarddatenbank vorhanden ist:
 
+---------------------------------------------
 
-Methode 2 
+Methode 2: 
 Installieren des PowerShell-Moduls
 
     Install-Module -Name UEFIv2
