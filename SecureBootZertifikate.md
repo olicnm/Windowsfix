@@ -39,6 +39,8 @@ Geben Sie Y (für "Ja") auf Fragen zur Installation des NuGet-Anbieters und zur 
 
     (Get-UEFISecureBootCerts dbdefault).signature 
 
+---------------------------------------
+
 alte Secure Boot-Zertifikate:
 
 2011 Zertifikate (CAs) 	                    
