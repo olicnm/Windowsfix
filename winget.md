@@ -4,6 +4,7 @@ Unsere Standardprogramme
 - winget install -e --id Adobe.Acrobat.Reader.64-bit
 - winget install -e --id TheDocumentFoundation.LibreOffice
 - winget install -e --id Google.Chrome
+
 Weniger wichtige Programme
 - winget install -e --id AngusJohnson.PDFTKBuilder
 - winget install -e --id SoftMaker.Office.NX
