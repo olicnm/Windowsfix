@@ -12,6 +12,7 @@ Weniger wichtige Programme
 - winget install -e --id Notepad++.Notepad++
 - winget install -e --id Microsoft.VisualStudioCode
 - winget install -e --id Microsoft.PowerToys
+- winget install -e --id GIMP.GIMP.3
 
 Alle Pakete aktualisieren 
 - winget upgrade --all
