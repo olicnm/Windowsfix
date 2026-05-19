@@ -14,6 +14,10 @@ Weniger wichtige Programme
 - winget install -e --id Microsoft.PowerToys
 - winget install -e --id GIMP.GIMP.3
 
+Prüfen welche Pakte aktualisiert werden können
+- winget update
+- winget update <Paketname> z.B. winget update lanconfig aktualisiert nur das LANconfig Programm
+
 Alle Pakete aktualisieren 
 - winget upgrade --all
 
