@@ -16,7 +16,9 @@ Weniger wichtige Programme
 
 Prüfen welche Pakte aktualisiert werden können
 - winget update
-- winget update <Paketname> z.B. winget update lanconfig aktualisiert nur das LANconfig Programm
+
+Einzelen Programme aktualisieren. Nimm die ID nicht den Namen des Programm (2. Spalte bei winget -update)
+- winget update <Paketname> z.B. winget update notepad++.notepad++ aktualisiert nur das Programm mit der ID notepad++.notepad++
 
 Alle Pakete aktualisieren 
 - winget upgrade --all
