@@ -11,4 +11,4 @@ Method2:
 
 Method3:
 - ThinkPad T430 without a battery, I finally get it done by running the winflash64.exe in CMD with the following flags:
-- winflash64.exe -file G1ETC2WW\$01D2000.FL1 -sn -oc bypass_power
+- winflash64.exe -file G1ETC2WW\$01D2000.FL1 -sn -oc bypass_power (change Folder und Filename accordingly)
