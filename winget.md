@@ -5,6 +5,7 @@ Unsere Standardprogramme
 - winget install -e --id TheDocumentFoundation.LibreOffice
 - winget install -e --id Google.Chrome
 - winget install -e --id Malwarebytes.AdwCleaner
+- winget install -e --id Veeam.VeeamAgent
 
 Weniger wichtige Programme
 - winget install -e --id AngusJohnson.PDFTKBuilder
