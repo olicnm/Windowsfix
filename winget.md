@@ -16,6 +16,9 @@ Weniger wichtige Programme
 - winget install -e --id Microsoft.PowerToys
 - winget install -e --id GIMP.GIMP.3
 
+Das Winget Repository durchsuchen
+- https://winstall.app/
+
 Prüfen welche Pakte aktualisiert werden können
 - winget update
 
